@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.khung1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.khung2 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FF9800;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.khung3 {
+    background-color:  #da952d;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .khung1 {
+        text-align: center;
