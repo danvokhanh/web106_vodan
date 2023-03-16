@@ -1,0 +1,19 @@
+@media only screen and {min-width: 760px;
+
+}
+
+
+
+
+
+.box {
+    display:flex;
+    margin: 10px auto 0;
+    width: 1200px;
+    justify-content: space-around;
+.box item {
+    background-color: brown;
+    border: 1px solid black;
+    padding: 20px;
+    
+}

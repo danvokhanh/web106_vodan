@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background:#eeeeee;
+    margin: 0;
+}
+.header {
+    padding:01px;
+    text-align: center;
+    background:white;
+    color:#eeeeee;
+}
+.herder h1 {
+    font-size: 40px;
+}
+.hreder p {
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    background-color: #eeeeee;
+    text-align: center;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a {
+    color:#eeeeee ;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #bce24b;
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
