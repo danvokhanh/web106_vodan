@@ -1,0 +1,14 @@
+.body {
+    text-align: center;
+
+}
+.container {
+    background-color: #BCE2C9;
+    display: flex;
+    display: grid;
+    grid-template-columns:50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px ;
+}
+    .item{
+        background-color: #BCE2C9;
+    }

@@ -1,0 +1,41 @@
+.img {
+    width: 100%;
+}
+
+.iframe {+
+    padding: 10px 15px;
+    border: none;
+}
+@media  screen and (max-width:800px) {
+    .iframe {
+   width: 80%; 
+    }
+    
+}
+.left {
+    background-color:rgb(25, 224, 157);
+    padding: 20px;
+    float: left;
+    width: 10%;
+}
+
+.main1 {
+    background-color:rgb(62, 56, 56);
+    padding: 20px;
+    float: left;
+    width: 10%;
+  }
+  
+.right {
+    background-color: rgb(62, 56, 56);
+    padding: 20px;
+    float: left;
+    width: 10%; 
+  }
+  
+  @media screen and (max-width: 800px) {
+    .left,main1,.right{
+      width: 100%; 
+    }
+
+  }
