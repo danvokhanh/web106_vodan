@@ -1,0 +1,41 @@
+*I{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FF4500;
+    padding: 10px 0 10px 0;
+}
+.logo {
+    font-size: 30px;
+    width: 165px;
+    height: 50px;
+}
+.row {
+    display:flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width:700px ) {
+    width: 200%`;
+}
+.search-container {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+.img {
+    height: 100%;
+}

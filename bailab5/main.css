@@ -30,7 +30,7 @@
     background-color: rgb(62, 56, 56);
     padding: 20px;
     float: left;
-    width: 10%; 
+    width: 50%; 
   }
   
   @media screen and (max-width: 800px) {
