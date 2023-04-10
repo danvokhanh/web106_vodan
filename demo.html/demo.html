@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+  <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="flex">
+        <div> <h2>Mạnh shop</h2></div>
+        <div class="input-group w-50">
+            <!-- <input type="" value="search"> -->
+            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                    <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"></path>
+                    <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"></path>
+                </svg>
+                
+            </span>
+            
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Page2</a></li>
+                <li><a href="#">Contack</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="display-container">
+            <img class="mySlides3" src="./siêu thị điện tử.jpg">
+            <img class="mySlides3" src="./siêu thị điện tử.jpg">
+            <img class="mySlides3" src="./siêu thị điện tử.jpg">
+            <img class="mySlides3" src="./siêu thị điện tử.jpg">
+            <button class="image-button button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="image-button button-right" onclick="plusDivs(1)">&#10095;</button>
+          
+            <div class="badge" style="width:100%">
+          
+              <span class="image-badge" onclick="currentDiv(1)"></span>
+              <span class="image-badge" onclick="currentDiv(2)"></span>
+              <span class="image-badge" onclick="currentDiv(3)"></span>
+              <span class="image-badge" onclick="currentDiv(4)"></span>
+            </div>
+          </div>
+          <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides3");
+              var dots = document.getElementsByClassName("image-badge");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" badge-white", "");
+              }
+              x[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " badge-white";
+            }
+            </script>
+    </div>
+    <div class="container">
+        <div>
+            <h1 class="title">SALE OFF 30%</h1>
+        </div>
+        <div>
+            <ul style="display: flex; justify-content: space-between; height: 100%;">
+                <li class="row cool"><a href="#"><img class="img2" src="./" alt=""></a>
+                    Áo hoodie 3 người - CAO CẤP - AHTW078-CC
+                <h4>349.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/6.jpg" alt=""></a>
+                    Sweater TAKE CARE - AW042X
+                <h4>299.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/7.jpg" alt=""></a>
+                    Hoddie chữ lắp rắp XỊN - AHTW047 X
+                <h4>349.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/8.jpg" alt=""></a>
+                    Hoddie kiểu dáng black form - AHTW048 X
+                <h4>349.000 VND</h4></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <h1 class="title">SẢN PHẨM NỔI BẬT</h1>
+        </div>
+        <div>
+            <ul style="display: flex; justify-content: space-between; height: 100%;">
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/9.webp" alt=""></a>
+                    Sweater form rộng Unisex xám đậm – ZiZoou Store - Streetwear
+                <h4>299.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/10.webp" alt=""></a>
+                    Sweater form rộng Unisex trắng – ZiZoou Store - Streetwear
+                <h4>299.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/11.webp" alt=""></a>
+                    Basic Oversize Sweater in Blue
+                <h4>299.000 VND</h4></li>
+                <li class="row cool"><a href="#"><img class="img2" src="./img2/12.jpg" alt=""></a>
+                    Áo sweater in hình chất thun PE mểm mịn
+                <h4>299.000 VND</h4></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h3>Thông tin cửa hàng</h3>
+            NGUYỄN ĐỨC MẠNH
+        </div>
+        <div>
+            <p>Danh mục</p>
+            Giày <br>
+            Quần Áo <br>
+            Phụ Kiện <br>
+            Nam <br>
+            Nữ <br>
+            SALE <br>
+        </div>
+        <div>
+<p> Hỗ trợ khách hàng</p>
+            FAQs & Help <br>
+            Về Fundiin <br>
+            Hướng dẫn thanh toán trả sau qua Fundiin <br>
+            Chính sách đổi trả/Hoàn tiền <br>
+            Chính sách giao hàng/Kiểm hàng <br>
+            Chính sách bảo hành <br>
+            Chính sách thanh toán <br>
+            Điều khoản dịch vụ <br>
+            Chính sách bảo mật <br>
+            Kiểm tra tình trạng đơn hàng <br>
+        </div>
+    </footer>
+</body>
+</html>
